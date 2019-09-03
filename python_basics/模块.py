@@ -33,7 +33,11 @@ def download(url):
     print("Download over.")
 if __name__ == '__main__':
     url = input('Enter a URL: ')
+<<<<<<< HEAD
     download(url)
 
 #Tab 补全
 
+=======
+    download(url)
+>>>>>>> 4a9bdd5a9a3717ece8c9fb120da1b6e4e328da63
