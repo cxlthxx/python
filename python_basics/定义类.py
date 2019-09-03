@@ -1,10 +1,7 @@
 # author:chenxl
-<<<<<<< HEAD
 import sys
 from collections import Counter
-=======
 
->>>>>>> 4a9bdd5a9a3717ece8c9fb120da1b6e4e328da63
 # class MyClass(object):
 #     i = 12345
 #     def f(self):
@@ -22,7 +19,6 @@ class Person(object):
     def __init__(self,name):
         self.name = name
     def get_details(self):
-<<<<<<< HEAD
         """
         返回包含人名的字符串
         """
@@ -82,8 +78,6 @@ if sys.argv[1] == "student":
 else:
     teacher1 = Teacher('Prashad', ['C', 'C++'], sys.argv[2])
     teacher1.get_grade()
-=======
-        return self.name
 
 class Student(Person):
     def __init__(self,name,branch,year):
@@ -110,7 +104,6 @@ print(teacher1.get_details())
 
 # 属性读取方法
 print(student1.branch)
->>>>>>> 4a9bdd5a9a3717ece8c9fb120da1b6e4e328da63
 
 # 装饰器
 class Account(object):
